@@ -1,0 +1,272 @@
+.item-link-img {
+	height: 250px;
+}
+.item-link-img img {
+	max-width: 100%;
+	max-height: 200px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.comment-item .div-avatar img {
+	width: 40px;
+	margin-top: 20px;
+}
+
+.comment-content {
+	font-size: 11px;
+}
+
+.comment-title {
+	font-size: 13px;
+}
+
+.div-comment {
+
+    padding: 5px 10px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.listComments{
+	height: 250px;
+    overflow: auto;
+} */
+
+
+/* /* //////////// master - login */
+
+
+/*Hacia conflicto*/
+body{
+    margin:0;
+    padding:0;
+    background: url(../asset/colombia.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+} 
+
+ .encabezado{
+    width: 320px;
+    height: 100px;
+    background: rgb(102, 205, 170,0.5);
+    top:20%;
+    left:50%;
+    padding: 70px 30px;
+    position: absolute;
+    transform: translate(-50%, -40%);
+    box-sizing: border-box;
+} 
+
+.login-box{
+    width: 320px;
+    height: 420px;
+    background: rgba(0,0,0,0.5);
+  
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.login-box .avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -80px;
+    left: calc(45% - 50px);
+}
+
+.login-box h1{
+   margin:0;
+   padding: 30px 0 30px;
+   text-align: center;
+   font-size: 22px; 
+}
+
+
+.login-box label{
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"]{
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"]{
+   border: none;
+   outline: none;
+   height: 40px;
+   background: mediumaquamarine;
+   color:#fff;
+   font-size: 20px;
+   border-radius: 10px;    
+}
+
+.login-box input[type="submit"]:hover{
+    color:black;  
+ }
+
+.login-box a{
+   text-decoration: none;
+   font-size: 12px;
+   line-height: 20px;
+   color: darkgray; 
+}
+
+.login-box a:hover{
+      color:#fff; 
+ }
+
+
+ /* ///// Estilos registro */
+
+ body{
+    margin: 0;
+    padding: 0;
+    background: url(../IMG/Plaza\ Bolivar.jfif) no-repeat center top;
+    background-size: cover;
+    font-family: Verdana;
+    height: 100vh;
+
+}
+
+.registrarse{
+    width: 480px;
+    height: 450px;
+    background: rgba(255, 255, 255, .9);
+    color:rgba(9, 180, 163, 0.788);
+    top: 57.8%;
+    left: 60%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 10%;
+    padding: 30px 30px;
+
+}
+
+.fondo_blanco{
+    width: 480px;
+    height: 600px;
+    background: url(../IMG/colores.jfif) no-repeat center top;
+    background-size: cover;
+    background-color: #cccccc;
+    top: 50%;
+    left: 60%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+
+}
+
+.logo{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 15%;    
+}
+
+.user{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 56%;
+    margin-top: 11%;
+
+
+}
+
+.registrarse h1{
+   margin:0;
+   padding-top: 20px;
+   padding-bottom: 40px;
+   text-align:center;
+   font-size: 25px; 
+}
+
+
+.registrarse label{
+    margin: 0;
+    color: rgb(212, 37, 37);
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.registrarse input{
+    width: 45%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.registrarse input[type="text"],
+.registrarse input[type="password"]{
+    border: none;
+    border-bottom: 1.5px solid rgba(121, 121, 121, 0.938);
+    background: transparent;
+    outline: none;
+    height: 20px;
+    font-weight: bold;
+    color: teal;
+    text-align: center;
+    font-size: 12px;
+    padding: auto;
+}
+
+.registrarse input[type="submit"]{
+   border: none;
+   outline: none;
+   width: 100%;
+   height: 40px;
+   background: mediumaquamarine;
+   color:#fff;
+   font-size: 20px;
+   border-radius: 10px; 
+   padding-top: 2%; 
+   padding-bottom: 2%; 
+   margin-top: 10px;
+
+}
+
+.registrarse input[type="submit"]:hover{
+    color:black;  
+ }
+
+ .registrarse input[type="checkbox"]{
+    width: min-content;
+    margin: 10px 0px 0px 0px;
+    align-self:initial;
+    padding-top: 0px;
+ 
+ }
+ .registrarse p6{
+    color: teal;
+    font-size:x-small;
+
+ }

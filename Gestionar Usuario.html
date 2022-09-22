@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Columbia livia</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.css.map">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap&display=swap" rel="preload" as="font">
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Inicio - Contenedor de la barra de navegación -->
+    <div class="container">
+        <!-- Inicio - Barra de navegación -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <!-- Inicio "Logo" -->
+                    <a class="navbar-brand" href="#">
+                        <img src="asset/logo_columba.jpg" width="30" height="30">
+                    </a>
+                    <!-- Fin logo -->
+                    Columbia Libia
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Template.html">Inicio</a>
+                        </li>
+                        <!-- Inicio - dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Álbum
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Nuevo álbum</a></li>
+                                <li><a class="dropdown-item" href="#">Mis albumes</a></li>
+                            </ul>
+                        </li>
+                        <!-- Fin - dropdown -->
+                        <!-- Inicio - dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Gestión
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Álbumes general</a></li>
+                                <li><a class="dropdown-item" href="#">Álbumes usuario</a></li>
+                                <li><a class="dropdown-item" href="#">Comentarios</a></li>
+                                <li><a class="dropdown-item" href="#">Publicaciones</a></li>
+                                <li><a class="dropdown-item" href="#">Usuarios</a></li>
+                            </ul>
+                        </li>
+                        <!-- Fin - dropdown -->
+                        <!-- Inicio - dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Sesión
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Registrar.html">Registro</a></li>
+                                <li><a class="dropdown-item" href="inicio.html">Inicio</a></li>
+                            </ul>
+                        </li>
+                        <!-- Fin - dropdown -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="Buzon.html">Buzón</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin barra de navegación -->
+    </div> <!-- Row END -->
+    <!-- Fin - Contenedor de la barra de navegación -->
+    <br>
+    <div class="container">
+        <div class="card">
+            <div class="card-header border-0 pb-0">
+                <h5 class="card-title">Gestión de usuarios</h5>
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Usuario</th>
+                            <th scope="col">Clave</th>
+                            <th scope="col">Rol</th>
+                            <th scope="col">Activo</th>
+                            <th scope="col">Fecha creación</th>
+                            <th scope="col">Fecha ultima edición</th>
+                            <th scope="col">Editar</th>
+                            <th scope="col">Guardar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">001</th>
+                            <td>Mark</td>
+                            <td>motto</td>
+                            <td>aL57hjy#</td>
+                            <td>Usuario Final</td>
+                            <td>True</td>
+                            <td>17/09/2022</td>
+                            <td>17/09/2022</td>
+                            <td><i class="bi bi-pencil-square"></i></td>
+                            <td><i class="bi bi-save2"></i></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">002</th>
+                            <td>Carlos</td>
+                            <td>cpro</td>
+                            <td>hewhhjy.</td>
+                            <td>Usuario Final</td>
+                            <td>True</td>
+                            <td>17/09/2022</td>
+                            <td>17/09/2022</td>
+                            <td><i class="bi bi-pencil-square"></i></td>
+                            <td><i class="bi bi-save2"></i></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">003</th>
+                            <td>Laura</td>
+                            <td>lalita</td>
+                            <td>Princlau24!</td>
+                            <td>Usuario Final</td>
+                            <td>True</td>
+                            <td>16/09/2022</td>
+                            <td>16/09/2022</td>
+                            <td><i class="bi bi-pencil-square"></i></td>
+                            <td><i class="bi bi-save2"></i></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">004</th>
+                            <td>Jaboc</td>
+                            <td>jthornton</td>
+                            <td>Jv!42m2!</td>
+                            <td>Administrador</td>
+                            <td>True</td>
+                            <td>15/09/2022</td>
+                            <td>15/09/2022</td>
+                            <td><i class="bi bi-pencil-square"></i></td>
+                            <td><i class="bi bi-save2"></i></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">005</th>
+                            <td>Brenda</td>
+                            <td>bchandra</td>
+                            <td>Bdfr!98</td>
+                            <td>Administrador</td>
+                            <td>True</td>
+                            <td>15/09/2022</td>
+                            <td>15/09/2022</td>
+                            <td><i class="bi bi-pencil-square"></i></td>
+                            <td><i class="bi bi-save2"></i></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">006</th>
+                            <td>Larry</td>
+                            <td>lbird</td>
+                            <td>2WzcS#p6</td>
+                            <td>Super administrador</td>
+                            <td>True</td>
+                            <td>14/09/2022</td>
+                            <td>14/09/2022</td>
+                            <td><i class="bi bi-pencil-square"></i></td>
+                            <td><i class="bi bi-save2"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

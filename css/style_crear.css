@@ -27,3 +27,13 @@ label{
 	align-items: center;
 	justify-content: center;
 }
+#btn{
+	margin-left:10px;
+	display: inline-block;
+	background-color: rgb(27, 160, 78);
+	border-radius: 0.5rem;
+	border: none;
+	color: white;
+	padding: 3px;
+	font-family: sans-serif;
+	text-align: center;

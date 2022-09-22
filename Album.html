@@ -26,27 +26,18 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
 </head>
 
-
-
-
-
 <body>
-
     <!-- Inicio - Contenedor de la barra de navegación -->
     <div class="container">
         <!-- Inicio - Barra de navegación -->
         <nav class="navbar navbar-expand-lg bg-light">
-
-
             <div class="container-fluid">
-
                 <a class="navbar-brand" href="#">
                     <!-- Inicio "Logo" -->
                     <a class="navbar-brand" href="#">
                         <img src="asset/logo_columba.jpg" alt="Bootstrap" width="30" height="30">
                     </a>
                     <!-- Fin logo -->
-
                     Columbia Libia
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -57,7 +48,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="Template.html">Inicio</a>
                         </li>
                         <!-- Inicio - dropdown -->
                         <li class="nav-item dropdown">
@@ -66,8 +57,8 @@
                                 Álbum
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="Modificar.html">Nuevo álbum</a></li>
-                                <li><a class="dropdown-item" href="Crear.html">Mis albumes</a></li>
+                                <li><a class="dropdown-item" href="Album.html">Nuevo álbum</a></li>
+                                <li><a class="dropdown-item" href="MiAlbum.html">Mis álbumes</a></li>
                             </ul>
                         </li>
                         <!-- Fin - dropdown -->
@@ -78,11 +69,11 @@
                                 Gestión
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Álbumes general</a></li>
-                                <li><a class="dropdown-item" href="#">Álbumes usuario</a></li>
-                                <li><a class="dropdown-item" href="#">Comentarios</a></li>
-                                <li><a class="dropdown-item" href="#">Publicaciones</a></li>
-                                <li><a class="dropdown-item" href="#">Usuarios</a></li>
+                                <li><a class="dropdown-item" href="Gestionar Album.html">Nuevo álbum</a></li>
+                                <li><a class="dropdown-item" href="Gestionar MiAlbum.html">Mis álbumes</a></li>
+                                <li><a class="dropdown-item" href="Gestionar Comentario.html">Comentarios</a></li>
+                                <li><a class="dropdown-item" href="Gestionar Publicacion.html">Publicaciones</a></li>
+                                <li><a class="dropdown-item" href="Gestionar Usuario.html">Usuarios</a></li>
                             </ul>
                         </li>
                         <!-- Fin - dropdown -->
@@ -93,8 +84,8 @@
                                 Sesión
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Registro</a></li>
-                                <li><a class="dropdown-item" href="#">Inicio</a></li>
+                                <li><a class="dropdown-item" href="Registrar.html">Registro</a></li>
+                                <li><a class="dropdown-item" href="Inicio.html">Cerrar Sesión</a></li>
                             </ul>
                         </li>
                         <!-- Fin - dropdown -->
@@ -115,41 +106,32 @@
 
     <br> <!-- Salto de linea entre el menu y el Feed-->
 
-
     <div class="container ">
         <div class="progress">
             <div class="progress-bar" role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" id="progressbar">Prog. 3/100</div>
-          </div>
-        <div class="gib-container">
-        <div class="d-flex align-items-center p-3 my-3 bg-purple rounded shadow-sm" >
-           
-            <div class="lh-1">
-                <H1 style="color: rgb(255, 255, 255); text-align: center;" >MIS ALBUMES</H1>
-              
-            </div>
-          </div>
         </div>
-        
-       
-        
-        
+        <div class="gib-container">
+            <div class="d-flex align-items-center p-3 my-3 bg-purple rounded shadow-sm" >
+                <div class="lh-1">
+                    <H1 style="color: rgb(255, 255, 255); text-align: center;" >MIS ALBUMES</H1>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
 
-        <br>  
-        <br>       
 <!-- fila1 -->
         <div class="row ">
+
 <!-- columna1 -->
             <div class="col">
                 <div class="card" style="width: 18rem;">
                     <img src="imgcrear/nuevo.jpg" class="card-img-top" alt="..."width="300" height="204">
                     <div class="card-body">
                         <h5 class="card-title">Crear Grupo</h5>
-                        
-                        
-                        <button type="button"  id="btn">Nuevo</button>
+                        <button type="button" id="btn">Nuevo</button>
                     </div>
                 </div>
-
             </div>
 
 <!-- columna2 -->
@@ -163,12 +145,10 @@
                         <label for="upload">Seleccionar</label>
                     </div>
                 </div>
-
             </div>
-
         </div>
+        <br>
 
-<br>
 <!-- fila2 -->
         <div class="row ">
 <!-- columna1 -->
@@ -181,7 +161,6 @@
                         <input type="file" id="upload" hidden/>
                         <label for="upload">Seleccionar</label></div>
                 </div>
-
             </div>
 <!-- columna2 -->
             <div class="col">
@@ -193,19 +172,9 @@
                         <input type="file" id="upload" hidden/>
                         <label for="upload">Seleccionar</label></div>
                 </div>
-
             </div>
-
         </div>
     </div>
-
-
-
-
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

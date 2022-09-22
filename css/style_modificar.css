@@ -1,0 +1,49 @@
+/*Estilo del boton crear album*/
+
+button{
+	margin-left: auto;
+}
+
+
+
+select{
+	max-width: 300px; float: left;
+}
+/*Estilo del boton cargar*/
+label{
+	display: inline-block;
+	background-color: rgb(27, 160, 78);
+	color: white;
+	padding: 0.5rem;
+	font-family: sans-serif;
+	border-radius: 0.3rem;
+	cursor: pointer;
+	margin-top: 1rem;
+  }
+  /*Estilo del texto crear album*/
+.gib-container{
+	max-width: 350px;margin-left: auto;background-color:#cbc8c8; border-radius: 0.5rem;;
+}
+#h1gib{
+	color: rgb(255, 255, 255); text-align: center;
+}
+
+#btn{
+	margin-left:10px;
+	display: inline-block;
+	background-color: rgb(27, 160, 78);
+	border-radius: 0.5rem;
+	border: none;
+	color: white;
+	padding: 3px;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+.progress{
+	max-width: 40%; 
+}
+#progressbar{
+	
+	width: 25%;
+}
